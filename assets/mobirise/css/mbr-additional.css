@@ -710,8 +710,22 @@ iframe.lazy-placeholder,
 section.lazy-placeholder:after {
   opacity: 0.3;
 }
-.cid-siBzTqfaNK H1 {
-  color: #46ff00;
+.cid-smbDFsfmVv {
+  background-image: url("../../../assets/images/130195043-1039446946556941-7797838860642100389-n.jpg");
+}
+.cid-smbDFsfmVv .mbr-section-subtitle {
+  letter-spacing: .2rem;
+}
+.cid-smbDFsfmVv .media-container-column {
+  background-color: #000000;
+}
+@media (max-width: 767px) {
+  .cid-smbDFsfmVv .media-container-column {
+    padding: 1rem !important;
+  }
+}
+.cid-smbDFsfmVv H1 {
+  color: #ffffff;
 }
 .cid-skoKqJaVlp {
   padding-top: 90px;
