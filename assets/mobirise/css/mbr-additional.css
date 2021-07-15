@@ -2,13 +2,11 @@
 
 
 
-
-
 body {
   font-family: Rubik;
 }
 .display-1 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Uni Sans Heavy';
   font-size: 4.25rem;
   font-display: swap;
 }
@@ -16,7 +14,7 @@ body {
   font-size: 6.8rem;
 }
 .display-2 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Uni Sans Heavy';
   font-size: 3rem;
   font-display: swap;
 }
@@ -1152,8 +1150,16 @@ section.lazy-placeholder:after {
   padding-bottom: 0px;
   background-color: #000000;
 }
-.cid-sCwhtFetCi {
+.cid-sDfO9z5RaZ {
   padding-top: 90px;
+  padding-bottom: 0px;
+  background-color: #000000;
+}
+.cid-sDfO9z5RaZ H1 {
+  color: #afff00;
+}
+.cid-sCwhtFetCi {
+  padding-top: 0px;
   padding-bottom: 0px;
   background-color: #000000;
   overflow: hidden;
