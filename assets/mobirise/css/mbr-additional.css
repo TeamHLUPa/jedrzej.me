@@ -571,32 +571,6 @@ blockquote {
 .mbr-form .input-group-btn button[type="submit"]:hover {
   box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
 }
-.form2 .form-control {
-  border-top-left-radius: 100px;
-  border-bottom-left-radius: 100px;
-}
-.form2 .input-group-btn a.btn {
-  border-top-left-radius: 0 !important;
-  border-bottom-left-radius: 0 !important;
-}
-.form2 .input-group-btn button[type="submit"] {
-  border-top-left-radius: 0 !important;
-  border-bottom-left-radius: 0 !important;
-}
-.form3 input[type="email"] {
-  border-radius: 100px !important;
-}
-@media (max-width: 349px) {
-  .form2 input[type="email"] {
-    border-radius: 100px !important;
-  }
-  .form2 .input-group-btn a.btn {
-    border-radius: 100px !important;
-  }
-  .form2 .input-group-btn button[type="submit"] {
-    border-radius: 100px !important;
-  }
-}
 @media (max-width: 767px) {
   .btn {
     font-size: .75rem !important;
@@ -1133,6 +1107,11 @@ section.lazy-placeholder:after {
 .cid-smbDFsfmVv H1 {
   color: #afff00;
 }
+.cid-sCwGJccSBI {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #000000;
+}
 .cid-sDfPUIAeWp {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -1144,11 +1123,6 @@ section.lazy-placeholder:after {
 }
 .cid-sDfPUIAeWp .social-list a:focus {
   text-decoration: none;
-}
-.cid-sCwGJccSBI {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-color: #000000;
 }
 .cid-sDfO9z5RaZ {
   padding-top: 90px;

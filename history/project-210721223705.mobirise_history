@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Jedrzej.me",
-    "currentPage": "portfolio.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -58,13 +58,15 @@
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": "on",
     "siteUrl": false,
-    "uniqCompNum": 65,
+    "uniqCompNum": 62,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-CYM6G6R84D\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-CYM6G6R84D');\n</script>",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "cookiesAlert": false,
-    "gdpr": false
+    "gdpr": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -546,22 +548,6 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor"
-          },
-          "_name": "content8",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Kolor tła\" name=\"bgColor\" value=\"#000000\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary-outline\" href=\"regulamin.html\" data-app-placeholder=\"Type Text\">Regulamin</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "sCwGJccSBI",
-          "_anchor": "content8-10",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'color')": {
               "background": "linear-gradient(0deg, @color2, @bg-value)"
             },
@@ -588,6 +574,22 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content8",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Góra\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Dół\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Kolor tła\" name=\"bgColor\" value=\"#000000\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary-outline\" href=\"regulamin.html\" data-app-placeholder=\"Type Text\">Regulamin</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sCwGJccSBI",
+          "_anchor": "content8-10",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     },
@@ -595,7 +597,7 @@
       "settings": {
         "meta_descr": "Jedrzej.me - portfolio",
         "title": "Portfolio",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -717,58 +719,6 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img20210721162931-1800x2400.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img20210721162931-1800x2400-800x1067.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Tutaj wstaw opis",
-                "active": false
-              },
-              {
-                "tags": "Animowane",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img20210721171034-1-1200x1600.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img20210721171034-1-1200x1600-800x1067.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Tutaj wstaw opis",
-                "active": false
-              },
-              {
-                "tags": "Animowane",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img20210721171338-1-1200x1600.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img20210721171338-1-1200x1600-800x1067.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Tutaj wstaw opis",
-                "active": false
-              },
-              {
-                "tags": "Animowane",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img20210721182838-1-1200x1600.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img20210721182838-1-1200x1600-800x1067.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Tutaj wstaw opis",
-                "active": true
-              },
-              {
-                "tags": "Animowane",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/img8624351695-1536x2048.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img8624351695-1536x2048-800x1067.jpg",
                 "alt": "",
@@ -866,7 +816,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Tutaj wstaw opis",
-                "active": false
+                "active": true
               }
             ]
           }
@@ -1867,7 +1817,7 @@
       "settings": {
         "meta_descr": "Jedrzej.me - kontakt",
         "title": "Kontakt",
-        "order": 2
+        "order": 1
       },
       "components": [
         {
